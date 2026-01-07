@@ -1,0 +1,136 @@
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+    font-family:'Space Grotesk',sans-serif;
+    background:radial-gradient(circle at top,#0d0d2a,#05050a);
+    color:#eaeaff;
+}
+
+/* NAVBAR */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:22px 48px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.logo{
+    font-family:'Oxanium',sans-serif;
+    font-size:22px;
+}
+
+.logo span{color:#00ffff}
+
+.navbar a{
+    color:#00ffff;
+    text-decoration:none;
+    font-size:14px;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:80px 20px 60px;
+}
+
+.hero h1{
+    font-family:'Oxanium',sans-serif;
+    font-size:38px;
+    text-shadow:0 0 25px rgba(0,255,255,.25);
+}
+
+.hero p{
+    margin-top:14px;
+    color:#aaa;
+    max-width:680px;
+    margin-inline:auto;
+}
+
+/* STEPS */
+.steps{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 24px 80px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:28px;
+}
+
+.step{
+    position:relative;
+    padding:28px;
+    border-radius:20px;
+    background:linear-gradient(180deg,#0c0c2a,#070713);
+    border:1px solid rgba(0,255,255,.25);
+    transition:.35s;
+}
+
+.step:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 40px rgba(0,255,255,.35);
+}
+
+.step-number{
+    font-family:'Oxanium',sans-serif;
+    font-size:42px;
+    color:#00ffff;
+    opacity:.15;
+    position:absolute;
+    top:18px;
+    right:22px;
+}
+
+.step h3{
+    font-family:'Oxanium',sans-serif;
+    margin-bottom:10px;
+    font-size:20px;
+}
+
+.step p{
+    font-size:14px;
+    color:#bbb;
+    line-height:1.6;
+}
+
+/* CTA */
+.cta{
+    text-align:center;
+    padding:70px 20px;
+    background:linear-gradient(180deg,transparent,#070713);
+}
+
+.cta h2{
+    font-family:'Oxanium',sans-serif;
+    font-size:28px;
+}
+
+.cta p{
+    color:#aaa;
+    margin:12px 0 22px;
+}
+
+.btn-primary{
+    display:inline-block;
+    padding:12px 28px;
+    border-radius:30px;
+    background:#00ffff;
+    color:#000;
+    text-decoration:none;
+    font-weight:600;
+    box-shadow:0 0 25px rgba(0,255,255,.6);
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 0 40px rgba(0,255,255,.9);
+}
+
+/* FOOTER */
+.footer{
+    text-align:center;
+    padding:30px;
+    font-size:13px;
+    color:#777;
+}
